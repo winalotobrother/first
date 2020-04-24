@@ -1,0 +1,238 @@
+/* body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: lightgray;
+    padding: 200px 0;
+}
+.avatar {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    width: auto;
+    border: 10px solid #336;
+    border-radius: 50%;
+}
+h1 {
+    color: lightgray;
+    text-align: center;
+    margin: 50px;
+    padding: 80px 0 0 30px;
+}
+.visualize {
+    color: white;
+}
+.templated {
+    text-transform: uppercase;
+    text-decoration: 1px dotted lightgray;
+    border-bottom: 1px dotted lightgray;
+    color: lightgray;
+}
+.templated:hover {
+    text-decoration: none;
+    border-bottom: none;
+    color: white;
+}
+.fa {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5em;
+    color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.fa:hover {
+    cursor: pointer;
+    color: white;
+}
+.main {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.pictures {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid red; 
+    margin: 20px;
+}
+.pictures:hover {
+    box-shadow: 5px, 5px, 5px darkmagenta;
+}
+.picture1 {
+    display: inline-flex;
+}
+.picture2 {
+    display: inline-flex;
+}
+.picture3 {
+    display: inline-flex;
+}
+.picture4 {
+    display: inline-flex;
+}
+.picture5 {
+    display: inline-flex;
+}
+.picture6 {
+    display: inline-flex;
+}
+.picture7 {
+    display: inline-flex;
+}
+footer {
+    text-align: center;
+} */
+body {
+    /* width: 100%; */
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightgray;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.avatar,
+h1 {
+    flex-direction: column;
+    display: flex;
+    border: 1px solid red;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 10px solid #3d3e5d;
+    width: 173px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center; /* выравнивает .avatar по центру */
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.visualize {
+    color: white;
+}
+.templated {
+    text-decoration: none;
+    color: lightgray;
+    /* text-decoration: 1px dotted lightgray; */
+    border-bottom: 1px dotted lightgray;
+}
+.templated:hover {
+    color: white;
+    /* text-decoration: none; */
+    border-bottom: none;
+}
+.flex-icons {
+    display: flex;
+    flex-direction: row;
+    width: 24px;
+    height: 24px;
+}
+.fa {
+    display: initial;
+    padding: 5px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    color: lightgray;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.fa:hover {
+    color: white;
+}
+.one {
+    border: 1px solid yellow;
+    flex-basis: 20%;
+}
+.two {
+    border: 1px solid black;
+    flex-basis: 20%;
+}
+.three {
+    border: 1px solid blue;
+    flex-basis: 20%;
+}
+.four {
+    border: 1px solid green;
+    flex-basis: 20%;
+}
+.five {
+    border: 1px solid purple;
+    flex-basis: 20%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.pictures {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid red; 
+    margin: 20px;
+    text-align: center;
+}
+.one {
+    width: 346px;
+    align-self: flex-start;
+}
+.two {
+    width: 346px;
+    align-self: flex-start;
+}
+.three {
+    width: 346px;
+    align-self: flex-start;
+}
+.four {
+    width: 346px;
+    align-self: flex-start;
+}
+.five {
+    width: 346px;
+    align-self: flex-start;
+}
+.six {
+    width: 346px;
+    align-self: flex-start;
+}
+.seven {
+    width: 346px;
+    align-self: flex-start;
+}
+.footer {
+    display: flex;
+    border: 2px solid red;
+}
+
